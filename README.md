@@ -6,14 +6,14 @@ This project aims to predict the resale prices of flats in Singapore, utilizing 
 
 The goal of this project is to develop a Streamlit application that allows users to explore and predict flat resale prices in Singapore effectively. Key features include:
 
-- **Data Retrieval**: Manage and retrieve historical flat sale data from MongoDB Atlas.
+- **Data Retrieval**: Manage and retrieve historical flat sale data from Singapore Housing and Development Board (HDB).
 - **Data Cleaning**: Handle missing values, remove duplicates, and convert data types for analysis.
 - **Predictive Modeling**: Build regression models to predict flat resale prices based on location, flat type, floor area, and other features.
 - **Prediction Visualization**: Enable users to visualize predicted prices based on their input features.
 
 ## Workflow
 
-1. **Data Retrieval from MongoDB**: Fetch historical flat sales data from MongoDB Atlas, including features such as town, flat type, storey range, floor area, and lease commence date.
+1. **Data Retrieval**: Fetch historical flat sales data from Singapore Housing and Development Board (HDB), including features such as town, flat type, storey range, floor area, and lease commence date.
 2. **Data Cleaning and Preparation**: Clean and preprocess the data to ensure it’s ready for modeling.
 3. **Feature Engineering**: Apply transformations and scaling to optimize model performance.
 4. **Model Building**: Train regression models to predict flat resale prices.
@@ -63,4 +63,4 @@ The goal of this project is to develop a Streamlit application that allows users
 - **Python**: [https://docs.python.org/3/](https://docs.python.org/3/)
 - **Streamlit Documentation**: [https://docs.streamlit.io/library/api-reference](https://docs.streamlit.io/library/api-reference)
 - **Scikit-learn Documentation**: [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)
-- **Dataset**: [Data](https://docs.google.com/spreadsheets/d/18eR6DBe5TMWU9FnIewaGtsepDbV4BOyr/edit?usp=sharing&ouid=104970222914596366601&rtpof=true&sd=true)
+- **Dataset**: [Data](https://beta.data.gov.sg/collections/189/view)

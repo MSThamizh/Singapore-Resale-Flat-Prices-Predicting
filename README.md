@@ -2,6 +2,8 @@
 
 This project aims to predict the resale prices of flats in Singapore, utilizing machine learning techniques to provide accurate pricing insights. The project leverages tools such as MongoDB Atlas for data storage, Streamlit for building an interactive application, and various visualization libraries to gain data insights.
 
+## URL: [Singapore Flat Sale Price Prediction](https://singapore-resale-flat-prices-predicting-1-i2o7.onrender.com)
+
 ## Problem Statement
 
 The goal of this project is to develop a Streamlit application that allows users to explore and predict flat resale prices in Singapore effectively. Key features include:

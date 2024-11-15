@@ -27,9 +27,12 @@ def predict_resale_flat_price(month,town,flat_type,storey_range,floor_area_sqm,f
 # Straemlit Part
 st.set_page_config(layout= "wide")
 st.title(":blue[**SINGAPORE RESALE FLAT PRICES PREDICTING**]")
-st.write("""This app uses a machine learning model to predict the resale price of HDB flats in Singapore 
-         based on key features like Town, Flat Type, Storey Range, Floor Area, , Flat Model, 
-         Remaining Lease and lease commence date.""")
+st.write(""":orange[This app uses a machine learning model to predict the resale price of HDB flats in 
+         Singapore based on key features like Town, Flat Type, Storey Range, Floor Area, Flat Model, 
+         Remaining Lease and lease commence date. This interactive tool is designed to assist potential 
+         buyers, sellers, and analysts in understanding price trends and making data-driven decisions. 
+         The app also visualizes key insights based on user input, providing a comprehensive overview of 
+         the Singapore flat market.]""")
 
 month_options = [ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12]
 year_options = [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
